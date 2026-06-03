@@ -1,0 +1,63 @@
+name: amal_tracker
+description: "A new Flutter project for tracking daily spiritual activities (Amal Tracker)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.1
+
+  # Local SQLite Database for persistent data
+  sqflite: ^2.3.2
+  path: ^1.9.0
+
+  # Date Formatting & Bengali Calendar Support
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+  # Local Reminders and Local Notifications Setup
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.4
+
+  # Audio playback library
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code quality lints
+  flutter_lints: ^6.0.0
+  
+  # Launcher Icon Generator
+  flutter_launcher_icons: ^0.13.1
+
+# Launcher Icon Configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/src-logo-rifat.png"
+
+flutter:
+  # Ensures that the Material Icons font is included
+  uses-material-design: true
+
+  # Asset Path Declaration (সাউন্ড ট্র্যাক সমূহের আপডেট)
+  assets:
+    - assets/images/src-logo-rifat.png
+    - assets/sounds/open.mp3
+    - assets/sounds/notification.mp3
+    - assets/sounds/success.mp3
+    - assets/sounds/warning.mp3
+    - assets/sounds/task_added.mp3
