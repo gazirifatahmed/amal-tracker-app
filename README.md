@@ -1,18 +1,23 @@
-# amal_tracker
+# Amal Tracker App
 
-A new Flutter project.
+Amal Tracker is an Islamic lifestyle application designed to help users track their daily acts of worship (Amal), religious routines, and personal habits. This app provides a seamless way to manage both fixed daily prayers and custom tasks with time tracking.
+
+## Key Features
+
+* **Daily Worship Tracking:** Easily track obligatory (Fard) and voluntary (Nafl) prayers.
+* **Quran & Knowledge:** Log daily Quran recitation and study progress.
+* **Daily Supplications (Duas):** Track morning and evening Adhkar/Duas.
+* **Self-Development:** Monitor personal goals like fasting, Sadaqah, and physical exercise.
+* **Custom Tasks:** Users can create personalized tasks with specific start and end times.
+* **Audio Feedback:** Get audio alerts for task completion and custom task creation using the `audioplayers` package.
+* **Data Persistence:** Securely saves your daily progress using `sqflite` for local database management.
+
+## Tech Stack
+
+* **Framework:** [Flutter](https://flutter.dev/)
+* **State Management:** [flutter_bloc](https://pub.dev/packages/flutter_bloc) for efficient state management.
+* **Database:** [sqflite](https://pub.dev/packages/sqflite) for local data storage.
+* **Audio:** [audioplayers](https://pub.dev/packages/audioplayers) for interactive sound effects.
+* **Formatting:** [intl](https://pub.dev/packages/intl)
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# amal-tracker-app
